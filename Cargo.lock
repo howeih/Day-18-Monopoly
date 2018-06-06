@@ -1,0 +1,14 @@
+[[package]]
+name = "gnuplot"
+version = "0.0.25"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "monopoly"
+version = "0.1.0"
+dependencies = [
+ "gnuplot 0.0.25 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum gnuplot 0.0.25 (registry+https://github.com/rust-lang/crates.io-index)" = "bdf373179db80d002f0348646d8424332f9b7b9287b86ae4f0fbbf91a609d561"
